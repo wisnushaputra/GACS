@@ -27,4 +27,4 @@ COPY --from=builder /app/node_modules ./node_modules
 
 EXPOSE 3000
 
-CMD ["node", "apps/backend/dist/src/index.js"]
+CMD ["node", "apps/backend/dist/index.js"]
